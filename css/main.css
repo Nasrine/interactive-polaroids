@@ -17,7 +17,7 @@ html {
   padding: 10px;
   width: 250px;
   transition: all 400ms linear;
-  transform:
+  position: absolute;
 
   background-color: #fff;
   border-radius: 4px;
@@ -39,7 +39,6 @@ html {
 }
 
 .polaroid:first-child {
-  position: absolute;
   top: 10em;
   left: 6em;
 }
@@ -52,7 +51,6 @@ html {
 
 .polaroid:nth-child(2) {
   transform: rotate(5deg);
-  position: absolute;
   top: 12em;
   left: 10em;
   z-index: 1000;
@@ -66,7 +64,6 @@ html {
 
 .polaroid:last-child {
   transform: rotate(30deg);
-  position: absolute;
   top: 10em;
   left: 12em;
 }
