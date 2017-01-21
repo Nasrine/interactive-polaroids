@@ -47,8 +47,8 @@ html {
 
 .polaroid:first-child {
   transform: rotate(-30deg);
-  top: 10em;
-  left: 10em;
+  top: 8em;
+  left: 12em;
 }
 
 .polaroid:first-child :hover {
