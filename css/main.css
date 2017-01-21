@@ -40,15 +40,15 @@ html {
 }
 
 .polaroid:first-child {
-  transform: rotate(30deg);
+  transform: rotate(-30deg);
   top: 10em;
   left: 5em;
 }
 
 .polaroid:first-child :hover {
   transform: rotate(0deg);
-   z-index: 1000;
- }
+  z-index: 1000;
+}
 
 .polaroid:nth-child(2) {
   transform: rotate(15deg);
