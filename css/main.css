@@ -57,13 +57,13 @@ html {
 }
 
 .polaroid:nth-child(2) {
-  transform: rotate(5deg);
+  transform: rotate(0deg);
   top: 9em;
   left: 18em;
 }
 
 .polaroid:nth-child(2):hover {
-  transform: rotate(0deg);
+  transform: rotate(5deg);
   z-index: 2000;
 }
 
