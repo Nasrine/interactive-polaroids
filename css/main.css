@@ -46,8 +46,8 @@ html {
 }
 
 .polaroid:first-child {
-  transform: rotate(-25deg);
-  top: 8em;
+  transform: rotate(-12deg);
+  top: 6em;
   left: 12em;
 }
 
@@ -57,9 +57,9 @@ html {
 }
 
 .polaroid:nth-child(2) {
-  transform: rotate(15deg);
-  top: 10em;
-  left: 19em;
+  transform: rotate(5deg);
+  top: 9em;
+  left: 18em;
 }
 
 .polaroid:nth-child(2):hover {
@@ -68,8 +68,8 @@ html {
 }
 
 .polaroid:last-child {
-  transform: rotate(30deg);
-  top: 7em;
+  transform: rotate(40deg);
+  top: 6em;
   left: 23em;
 }
 
